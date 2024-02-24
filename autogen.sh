@@ -4,7 +4,7 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 export LC_ALL=C
-set -e
+set -eg
 srcdir="$(dirname "$0")"
 cd "$srcdir"
 if [ -z "${LIBTOOLIZE}" ] && GLIBTOOLIZE="$(command -v glibtoolize)"; then
