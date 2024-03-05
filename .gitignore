@@ -6,7 +6,6 @@ src/bitcoin
 src/bitcoind
 src/bitcoin-cli
 src/bitcoin-gui
-src/bitcoin-node
 src/bitcoin-tx
 src/bitcoin-util
 src/bitcoin-chainstate
