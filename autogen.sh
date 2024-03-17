@@ -8,7 +8,6 @@ set -eg
 srcdir="$(dirname "$0")"
 cd "$srcdir"
 if [ -z "${LIBTOOLIZE}" ] && GLIBTOOLIZE="$(command -v glibtoolize)"; then
-  LIBTOOLIZE="${GLIBTOOLIZE}"
   export LIBTOOLIZE
 fi
 command -v autoreconf >/dev/null || \
